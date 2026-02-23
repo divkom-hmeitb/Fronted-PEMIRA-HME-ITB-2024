@@ -8,10 +8,10 @@ npm install
 ```
 Make sure the node_modules folder exist after installing.
 Change the .env.example to .env.local
-Change the token or url to your liking.
+Change the token or url to your database version.
 After that, Open your terminal.
 Don't forget to change the directory to this project folder.
-run this code on the terminal to create a database.db:
+run this code (skip if you an external database (not dummy file)) on the terminal to create a database.db:
 ```bash
 node src/scripts/setup-db.js
 ```
